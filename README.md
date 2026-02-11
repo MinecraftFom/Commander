@@ -26,3 +26,8 @@ This project requires SpigotASM to work.
       @Override
       /* ... */
     }
+
+
+*Notice*
+A CommandExecutingEvent will be thrown before the command will be executed.
+A CommandExecutedEvent will be thrown after the command is executed (containing the command return status)
