@@ -1,0 +1,11 @@
+name: Commander
+version: '0.0.1'
+main: com.fomdev.commander.init.Commander
+api-version: '1.21'
+prefix: Langutil
+load: STARTUP
+authors: [ Fomdev ]
+description: A plugin for in-game plugin translation. (Fixes the phenomenom that spigot plugins cannot use the Minecraft translation)
+depend:
+  - SpigotASM
+  - Translation
